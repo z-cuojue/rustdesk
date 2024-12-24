@@ -103,7 +103,7 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 pub const RENDEZVOUS_SERVERS: &[&str] = &["hk.weiyee.cn"];
-pub const PUBLIC_RS_PUB_KEY: &str = "7vmyGFeicqQ3mL6eZ0SjfVriuzitaY9TDXmURv2xSHo=";
+pub const PUBLIC_RS_PUB_KEY: &str = "K9dhUkWWVSvGJgr7vMkK5k0s0ZfaHu8WW8rE0QexJ4Q=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
     Some(key) if !key.is_empty() => key,
